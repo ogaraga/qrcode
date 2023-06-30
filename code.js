@@ -31,7 +31,7 @@ clickBtn.addEventListener("click", () => {
 clickBtn2.addEventListener("click", (e) => {
     e.preventDefault();
     if (container.style.display = "none" && textInput.value != "") {
-        clickBtn2.innerHTML = "Reinitializing and now loading...";
+        clickBtn2.innerHTML = "Reinitialized and now loading...";
         clickBtn2.style.textDecoration = "none";
         imageDiv.style.display = "none";
 
